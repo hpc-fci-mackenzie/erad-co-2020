@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N (1<<16)
+#define N (1<<30)
 
 int main()
 {
