@@ -1,10 +1,10 @@
 FLAGS = -Wall -fopenmp
-bin = desafio1
+bin = desafio1 desafio2
 
 all: $(bin)
 
-desafio1:
-	$(CC) $(FLAGS) desafio1.c -o desafio1
+$(bin):
+	$(CC) $(FLAGS) $@.c -o $@
 
 clean:
 	rm $(bin)
