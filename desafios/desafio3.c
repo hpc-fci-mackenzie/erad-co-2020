@@ -31,7 +31,7 @@ int main()
         return 1;
     }
     gettimeofday(&tempo_f, NULL);
-    printf("Tempo de computacao : %f segundos\n",
+    printf("Tempo de iniciacao : %f segundos\n",
         (double) (tempo_f.tv_usec - tempo_i.tv_usec) / 1000000 +
         (double) (tempo_f.tv_sec - tempo_i.tv_sec));
 
