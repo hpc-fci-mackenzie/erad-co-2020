@@ -35,7 +35,7 @@ int main()
     int fim = inicio + slot;
     for(int i=inicio; i<fim; i++) {
         if(conjunto[i] == numero) {
-            printf("Encontrei com a thread %d na posicao %d\n,", id, i);
+            printf("Encontrei com a thread %d na posicao %d\n", id, i);
         }
     }
 }
