@@ -17,3 +17,5 @@ pratica4:
 
 clean:
 	rm $(bin)
+
+.PHONY: all $(bin)
