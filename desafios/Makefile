@@ -1,5 +1,5 @@
 FLAGS = -Wall -fopenmp
-bin = desafio1 desafio2
+bin = desafio1 desafio2 desafio3
 
 all: $(bin)
 
