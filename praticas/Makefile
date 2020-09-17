@@ -1,5 +1,5 @@
 FLAGS = -Wall -fopenmp
-bin = pratica1 pratica2 pratica3 pratica4 pratica5 pratica6 pratica7
+bin = pratica1 pratica2 pratica3 pratica4 pratica5 pratica6 pratica7 pratica8
 
 all: $(bin)
 
