@@ -1,12 +1,16 @@
 FLAGS = -Wall -fopenmp
-bin = desafio1 desafio2 desafio3 desafio4 desafio5 desafio6
+src = desafio1 desafio2 desafio3 desafio4 desafio5 desafio6
+srcpp = desafio7
 
-all: $(bin)
+all: $(src) $(srcpp)
 
-$(bin):
+$(src):
 	$(CC) $(FLAGS) $@.c -o $@
 
-clean:
-	rm $(bin)
+$(srcpp):
+	$(CXX) $(FLAGS) $@.cpp -o $@
 
-.PHONY: all $(bin)
+clean:
+	rm $(src) $(srcpp)
+
+.PHONY: all $(src) $(srcpp)
