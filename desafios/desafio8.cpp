@@ -283,7 +283,7 @@ int main(int argc, char*argv[]) {
 	float radius;
 	float x, y;
 
-	ifstream in("mandelbrot.in");
+	ifstream in("desafio8.in");
 
 	in >> width >> heigth;
 	in >> radius;
@@ -292,7 +292,7 @@ int main(int argc, char*argv[]) {
 
 	mandelbrot m(width, heigth, radius, center);
 
-	ofstream out("mandelbrot.out");
+	ofstream out("desafio8.out");
 	out << m;
 	out.close();
 
