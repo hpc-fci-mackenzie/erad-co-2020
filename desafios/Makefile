@@ -1,6 +1,6 @@
 FLAGS = -Wall -fopenmp
 src = desafio1 desafio2 desafio3 desafio4 desafio5 desafio6
-srcpp = desafio7
+srcpp = desafio7 desafio8
 
 all: $(src) $(srcpp)
 
