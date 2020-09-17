@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PASSOS (1<<10)
+#define PASSOS (1<<30)
 
 int main()
 {
